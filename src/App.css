@@ -1,0 +1,68 @@
+.container{
+  position: relative;
+  margin: 0px 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading_text{
+text-align: center;
+}
+
+.doctors_section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctors_section .box{
+  width: 220px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  margin: .8rem;
+  z-index: 0;
+  border-radius: 10px;
+  /* box-shadow: 4px 4px 5px rgb(214, 216, 216); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box img{
+  width: 220px;
+  /* height: 160px; */
+}
+.box_text{
+position: relative;
+ height: 70px;
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+align-items: center;
+  /* background-color: rgb(224, 224, 224); */
+}
+
+p{
+  margin: 0px;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(94, 94, 94);
+}
+.box_text .dept{
+  font-size: 14px;
+  color: rgb(126, 126, 126);
+}
+
+.box_text:hover{
+  z-index: 1;
+transform: scale(1.05);
+}
+
+.box:hover{
+z-index: 1;
+transform: scale(1.05);
+transition: 0.2s all;
+background-color: rgb(135, 253, 214);
+
+}
